@@ -1,1 +1,1 @@
-# GraphQL-CURD-
+# CURD Operation Using GraphQL API
