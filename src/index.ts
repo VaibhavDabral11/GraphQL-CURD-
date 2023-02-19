@@ -37,7 +37,7 @@ const resolvers = {
         },
         user: async (_, { id }, { prisma }) => {
             // retrieve a single user by its id from the database using the Prisma Client
-            return await prisma.user.findOne({
+            return await prisma.user.findUnique({
                 where: {
                     id
                 },
